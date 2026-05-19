@@ -1,0 +1,82 @@
+================================================================================
+OTX THREAT INTELLIGENCE REPORT
+Generated: 2026-05-18 17:18:38
+================================================================================
+
+SUMMARY:
+  Total Pulses: 5
+  HIGH Priority Threats: 3
+  LOW Priority Threats: 2
+
+================================================================================
+
+Pulse #1: Tracking Mirai Variant Nexcorium: A Vulnerability-Driven IoT Botnet Campaign
+  Priority: 🔴 HIGH
+  Created: 2026-04-17T18:56:13.678000
+  Indicator Count: 20
+  Description: Nexcorium is a multi-architecture Mirai variant exploiting CVE-2024-3721 in TBK DVR devices to build a botnet for distributed denial-of-service attack...
+  Tags: cve-2024-3721, mirai variant, mirai, persistence mechanisms, iot botnet, multi-architecture, credential brute-force, tbk dvr exploitation, nexcorium, ddos attacks and 1 more
+  Sample Indicators (5 of 20):
+    1. [CVE] CVE-2017-17215
+    2. [CVE] CVE-2024-3721
+    3. [FileHash-MD5] aaed4dca8bd6bb42fc4efb358a02a554
+    4. [FileHash-SHA1] ebdae1b6a28589ecc8d84557f0e83963396291cf
+    5. [FileHash-SHA256] 89dae116c77b0035277d39dfe01043624427c119ddee8883a3ba54a42a6ae400
+
+--------------------------------------------------------------------------------
+
+Pulse #2: Live off the Land? How About Bringing Your Own Island? An Overview of UNC1945
+  Priority: 🔴 HIGH
+  Created: 2026-04-17T18:32:58.889000
+  Indicator Count: 16
+  Description: UNC1945 compromised managed service providers to target organizations within financial and professional consulting industries through third-party netw...
+  Tags: evilsun, financial sector, lemonstick, steelcorgi, rollcoast, pam backdoor, oracle solaris, cve-2019-0708, managed service providers, oksolo and 10 more
+  Sample Indicators (5 of 16):
+    1. [FileHash-MD5] 6983f7001de10f4d19fc2d794c3eb534
+    2. [CVE] CVE-2019-0708
+    3. [FileHash-MD5] d505533ae75f89f98554765aaf2a330a
+    4. [FileHash-MD5] 2eff2273d423a7ae6c68e3ddd96604bc
+    5. [FileHash-MD5] 0845835e18a3ed4057498250d30a11b1
+
+--------------------------------------------------------------------------------
+
+Pulse #3: Untangling a Linux Incident With an OpenAI Twist
+  Priority: 🟢 LOW
+  Created: 2026-04-17T14:19:42.479000
+  Indicator Count: 1
+  Description: A technology sector organization experienced a multi-actor compromise on a Linux endpoint where cryptominers were deployed and credential harvesting o...
+  Tags: codex ai, multi-actor, living-off-the-land, linux compromise, edr evasion, credential theft, monero mining, cryptominer
+  Sample Indicators (1 of 1):
+    1. [CVE] CVE-2025-47812
+
+--------------------------------------------------------------------------------
+
+Pulse #4: Dissecting macOS intrusion from lure to compromise
+  Priority: 🟢 LOW
+  Created: 2026-04-17T08:37:43.088000
+  Indicator Count: 16
+  Description: Microsoft Threat Intelligence uncovered a macOS-focused cyber campaign by North Korean threat actor Sapphire Sleet utilizing social engineering to com...
+  Tags: social engineering, north korea, systemupdate.app, tcc bypass, com.google.chromes.updaters, applescript, services, softwareupdate.app, cryptocurrency theft, com.apple.cli and 4 more
+  Sample Indicators (5 of 16):
+    1. [domain] uw04webzoom.us
+    2. [domain] ur01webzoom.us
+    3. [domain] uv01webzoom.us
+    4. [FileHash-SHA256] 05e1761b535537287e7b72d103a29c4453742725600f59a34a4831eafc0b8e53
+    5. [FileHash-SHA256] 2075fd1a1362d188290910a8c55cf30c11ed5955c04af410c481410f538da419
+
+--------------------------------------------------------------------------------
+
+Pulse #5: CVE-2026-39987 update: How attackers weaponized marimo to deploy a blockchain botnet via HuggingFace
+  Priority: 🔴 HIGH
+  Created: 2026-04-16T08:36:45.830000
+  Indicator Count: 10
+  Description: Three days after disclosure of a critical pre-authorization remote code execution vulnerability in the marimo Python notebook platform, multiple threa...
+  Tags: huggingface, cve-2026-39987, nkn blockchain, marimo
+  Sample Indicators (5 of 10):
+    1. [CVE] CVE-2017-5638
+    2. [CVE] CVE-2026-39987
+    3. [FileHash-MD5] 1d36de06a6240919189cb46e0bcccc3c
+    4. [FileHash-MD5] bdcb5867f73beae89c3fce46ad5185be
+    5. [FileHash-SHA1] 049c35fa746a8b86c100bf6b348ef6163b215898
+
+--------------------------------------------------------------------------------
