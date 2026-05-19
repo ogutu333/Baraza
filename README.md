@@ -1,8 +1,8 @@
-# OTX Threat Intelligence Collector
+# OTX Threat Intelligence
 
 A Python-based threat intelligence tool that interacts with AlienVault's Open Threat Exchange (OTX) API to collect, analyze, and prioritize threat intelligence data.
 
-## 📋 Overview
+## Overview
 
 This script provides automated threat intelligence collection from OTX, helping security analysts:
 - Collect subscribed threat pulse data (IOCs, TTPs)
@@ -10,12 +10,12 @@ This script provides automated threat intelligence collection from OTX, helping 
 - Contextualize and prioritize threats (HIGH/MEDIUM/LOW)
 - Export structured intelligence reports
 
-## 👤 Author
+## Author
 
 **Deborah Ogutu**  
 Date: 2026-05-18
 
-## 🚀 Features
+## Features
 
 - **Automated Threat Collection**: Fetches subscribed pulses from OTX API
 - **Intelligent Prioritization**: Automatically classifies threats as HIGH or LOW based on keywords
@@ -23,20 +23,20 @@ Date: 2026-05-18
 - **Error Handling**: Gracefully handles HTTP errors, empty data, and missing fields
 - **Sample Indicators**: Displays first 5 indicators per pulse for quick assessment
 
-## 📊 Priority Classification
+## Priority Classification
 
 | Priority | Keywords |
 |----------|----------|
 | **HIGH** | ransomware, phishing, malware, trojan, APT, exploit, zeroday, CVE, botnet |
 | **LOW** | Everything else |
 
-## 🔧 Prerequisites
+## Prerequisites
 
 - Python 3.6 or higher
 - Internet connection for OTX API access
 - (Optional) OTX API key for higher rate limits
 
-## 📦 Installation
+## Installation
 
 1. **Clone the repository:**
 ```bash
