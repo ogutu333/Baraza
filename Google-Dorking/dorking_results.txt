@@ -1,0 +1,16 @@
+Results for: inurl:login
+/httpservice/retry/enablejs?sei=UBZnatH5HbfDp84P1efb6AE
+https://support.google.com/websearch
+
+Results for: filetype:pdf OR filetype:doc
+/httpservice/retry/enablejs?sei=UxZnas7IAcWRp84P2aTNyQI
+https://support.google.com/websearch
+
+Results for: intitle:index.of mysql
+/httpservice/retry/enablejs?sei=VRZnasDnJMTLp84PzZGs4AI
+https://support.google.com/websearch
+
+Results for: tomatoes
+/httpservice/retry/enablejs?sei=WBZnaubXGoLgp84P-uPv4Q0
+https://support.google.com/websearch
+
